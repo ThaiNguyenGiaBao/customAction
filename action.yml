@@ -9,6 +9,19 @@ inputs:
     required: true
     default: '1000'
 
+  owner:
+    description: 'The owner of the repository.'
+    required: true
+  repo:
+    description: 'The repository name.'
+    required: true
+  pull_number:
+    description: 'The pull request number.'
+    required: true
+  token:
+    description: 'The GitHub token.'
+    required: true
+
 # Define your outputs here.
 outputs:
   time:
